@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+background-image: url('../images/bg-header-desktop.png');
+background-repeat: no-repeat;
+background-size:contain;
+}
+#last div .ficon:hover{
+ filter:  brightness(100%) saturate(800%) contrast(200%) sepia(200%) ;
+}
+
